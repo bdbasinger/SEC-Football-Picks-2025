@@ -58,7 +58,8 @@ ROOT_URLCONF = "footballpicks.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            BASE_DIR /'footballpicks' / 'templates',],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
