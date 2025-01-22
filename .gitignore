@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+env/
+venv/
+.venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.iml
+
+# Static files (if you manage them separately)
+static/
+media/
+
+# Test output
+htmlcov/
+.coverage
+.tox/
