@@ -25,3 +25,8 @@ def home_view(request):
 # @login_required
 # def picks_view(request):
 #     return render(request, 'picks.html')
+
+
+@login_required
+def profile_view(request):
+    return render(request, 'accounts/profile.html')
