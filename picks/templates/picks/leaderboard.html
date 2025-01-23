@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Leaderboard</h2>
+<table>
+    <tr>
+        <th>User</th>
+        <th>Correct Picks</th>
+    </tr>
+    {% for user, correct_count in scoreboard %}
+    <tr>
+        <td>{{ user.full_name }}</td>
+        <td>{{ correct_count }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
