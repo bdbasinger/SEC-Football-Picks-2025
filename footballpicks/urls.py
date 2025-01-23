@@ -22,9 +22,8 @@ from accounts.views import home_view
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', home_view, name='home'),
-
+    path('games/', include('games.urls')),
     path('accounts/', include('accounts.urls')),  # We'll define in accounts/urls.py
-
     path('picks/', include('picks.urls')),  # We'll define in picks/urls.py
+    path('', home_view, name='home'),
 ]
