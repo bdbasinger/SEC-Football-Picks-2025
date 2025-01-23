@@ -72,7 +72,7 @@
 </header>
 <nav>
     <a href="{% url 'home' %}">Home</a>
-    <a href="{% url 'picks' %}">Picks</a>
+    <a href="{% url 'picks_home' %}">Picks</a>
     <div class="nav-right">
         {% if user.is_authenticated %}
             <a href="{% url 'logout' %}">Logout</a>
