@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Pick
 
-# Register your models here.
+@admin.register(Pick)
+class PickAdmin(admin.ModelAdmin):
+    list_display = ('user', 'game', 'picked_winner')
