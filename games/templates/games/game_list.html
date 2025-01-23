@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Game List</h2>
+<ul>
+    {% for game in games %}
+        <li>
+            <a href="{% url 'game_detail' game.pk %}">
+                {{ game.away_team }} at {{ game.home_team }} ({{ game.date }})
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

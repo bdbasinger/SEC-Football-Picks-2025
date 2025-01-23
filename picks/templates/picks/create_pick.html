@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Make Your Pick</h2>
+<p>{{ game.away_team }} at {{ game.home_team }} ({{ game.date }})</p>
+
+<form method="POST">
+    {% csrf_token %}
+    <label>Pick Winner:</label>
+    <select name="picked_winner">
+        <option value="{{ game.home_team }}">{{ game.home_team }}</option>
+        <option value="{{ game.away_team }}">{{ game.away_team }}</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}

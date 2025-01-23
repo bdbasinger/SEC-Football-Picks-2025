@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ game.away_team }} at {{ game.home_team }}</h2>
+<p>{{ game.date }}</p>
+
+{% if user.is_authenticated %}
+    <p>Pick a winner:</p>
+    <!-- Link to create pick form -->
+    <a href="{% url 'create_pick' game.pk %}">Make/Update My Pick</a>
+{% else %}
+    <p><a href="{% url 'login' %}">Log in</a> to make your pick.</p>
+{% endif %}
+{% endblock %}

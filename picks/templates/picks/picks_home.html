@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>My Picks</h2>
+<ul>
+    {% for pick in user_picks %}
+        <li>
+            {{ pick.game.away_team }} at {{ pick.game.home_team }} 
+            on {{ pick.game.date }}: 
+            <strong>You picked:</strong> {{ pick.picked_winner }}
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
