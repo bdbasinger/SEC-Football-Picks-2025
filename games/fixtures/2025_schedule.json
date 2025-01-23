@@ -1,0 +1,1410 @@
+[
+  {
+    "model": "games.game",
+    "pk": 1,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Florida State",
+      "away_team": "Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 2,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Arkansas",
+      "away_team": "Alabama A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 3,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Baylor",
+      "away_team": "Auburn",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 4,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Florida",
+      "away_team": "Long Island",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 5,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Georgia",
+      "away_team": "Marshall",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 6,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Kentucky",
+      "away_team": "Toledo",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 7,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Clemson",
+      "away_team": "LSU",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 8,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Ole Miss",
+      "away_team": "Georgia State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 9,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Southern Miss",
+      "away_team": "Mississippi State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 10,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Missouri",
+      "away_team": "Central Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 11,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Oklahoma",
+      "away_team": "Illinois State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 12,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Syracuse (Atlanta)",
+      "away_team": "Tennessee",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 13,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Ohio State",
+      "away_team": "Texas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 14,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Texas A&M",
+      "away_team": "UTSA",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 15,
+    "fields": {
+      "date": "2025-08-30",
+      "home_team": "Vanderbilt",
+      "away_team": "Charleston Southern",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 16,
+    "fields": {
+      "date": "2025-08-31",
+      "home_team": "Virginia Tech (Atlanta)",
+      "away_team": "South Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 17,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Alabama",
+      "away_team": "UL-Monroe",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 18,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Arkansas (Little Rock)",
+      "away_team": "Arkansas State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 19,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Auburn",
+      "away_team": "Ball State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 20,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Florida",
+      "away_team": "South Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 21,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Georgia",
+      "away_team": "Austin Peay",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 22,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Kentucky",
+      "away_team": "Ole Miss",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 23,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "LSU",
+      "away_team": "Louisiana Tech",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 24,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Mississippi State",
+      "away_team": "Arizona State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 25,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Missouri",
+      "away_team": "Kansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 26,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Oklahoma",
+      "away_team": "Michigan",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 27,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "South Carolina",
+      "away_team": "South Carolina State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 28,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Tennessee",
+      "away_team": "East Tennessee State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 29,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Texas",
+      "away_team": "San Jose State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 30,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Texas A&M",
+      "away_team": "Utah State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 31,
+    "fields": {
+      "date": "2025-09-06",
+      "home_team": "Virginia Tech",
+      "away_team": "Vanderbilt",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 32,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Alabama",
+      "away_team": "Wisconsin",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 33,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Auburn",
+      "away_team": "South Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 34,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Kentucky",
+      "away_team": "Eastern Michigan",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 35,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "LSU",
+      "away_team": "Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 36,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Ole Miss",
+      "away_team": "Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 37,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Mississippi State",
+      "away_team": "Alcorn State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 38,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Missouri",
+      "away_team": "UL-Lafayette",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 39,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Temple",
+      "away_team": "Oklahoma",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 40,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "South Carolina",
+      "away_team": "Vanderbilt",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 41,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Tennessee",
+      "away_team": "Georgia",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 42,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Texas",
+      "away_team": "UTEP",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 43,
+    "fields": {
+      "date": "2025-09-13",
+      "home_team": "Notre Dame",
+      "away_team": "Texas A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 44,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Memphis",
+      "away_team": "Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 45,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Miami",
+      "away_team": "Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 46,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "LSU",
+      "away_team": "Southeastern Louisiana",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 47,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Ole Miss",
+      "away_team": "Tulane",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 48,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Mississippi State",
+      "away_team": "Northern Illinois",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 49,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Missouri",
+      "away_team": "South Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 50,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Oklahoma",
+      "away_team": "Auburn",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 51,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Tennessee",
+      "away_team": "UAB",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 52,
+    "fields": {
+      "date": "2025-09-20",
+      "home_team": "Vanderbilt",
+      "away_team": "Georgia State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 53,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Arkansas",
+      "away_team": "Notre Dame",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 54,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Georgia",
+      "away_team": "Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 55,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Ole Miss",
+      "away_team": "LSU",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 56,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Mississippi State",
+      "away_team": "Tennessee",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 57,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Missouri",
+      "away_team": "UMass",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 58,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "South Carolina",
+      "away_team": "Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 59,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Texas",
+      "away_team": "Sam Houston",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 60,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Texas A&M",
+      "away_team": "Auburn",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 61,
+    "fields": {
+      "date": "2025-09-27",
+      "home_team": "Vanderbilt",
+      "away_team": "Utah State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 62,
+    "fields": {
+      "date": "2025-10-04",
+      "home_team": "Alabama",
+      "away_team": "Vanderbilt",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 63,
+    "fields": {
+      "date": "2025-10-04",
+      "home_team": "Florida",
+      "away_team": "Texas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 64,
+    "fields": {
+      "date": "2025-10-04",
+      "home_team": "Georgia",
+      "away_team": "Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 65,
+    "fields": {
+      "date": "2025-10-04",
+      "home_team": "Oklahoma",
+      "away_team": "Kent State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 66,
+    "fields": {
+      "date": "2025-10-04",
+      "home_team": "Texas A&M",
+      "away_team": "Mississippi State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 67,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Auburn",
+      "away_team": "Georgia",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 68,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "LSU",
+      "away_team": "South Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 69,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Ole Miss",
+      "away_team": "Washington State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 70,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Missouri",
+      "away_team": "Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 71,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Tennessee",
+      "away_team": "Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 72,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Texas (Dallas)",
+      "away_team": "Oklahoma",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 73,
+    "fields": {
+      "date": "2025-10-11",
+      "home_team": "Texas A&M",
+      "away_team": "Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 74,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Alabama",
+      "away_team": "Tennessee",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 75,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Arkansas",
+      "away_team": "Texas A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 76,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Auburn",
+      "away_team": "Missouri",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 77,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Florida",
+      "away_team": "Mississippi State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 78,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Georgia",
+      "away_team": "Ole Miss",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 79,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Kentucky",
+      "away_team": "Texas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 80,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "South Carolina",
+      "away_team": "Oklahoma",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 81,
+    "fields": {
+      "date": "2025-10-18",
+      "home_team": "Vanderbilt",
+      "away_team": "LSU",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 82,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "Arkansas",
+      "away_team": "Auburn",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 83,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "Kentucky",
+      "away_team": "Tennessee",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 84,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "LSU",
+      "away_team": "Texas A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 85,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "Mississippi State",
+      "away_team": "Texas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 86,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "Oklahoma",
+      "away_team": "Ole Miss",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 87,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "South Carolina",
+      "away_team": "Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 88,
+    "fields": {
+      "date": "2025-10-25",
+      "home_team": "Vanderbilt",
+      "away_team": "Missouri",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 89,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Arkansas",
+      "away_team": "Mississippi State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 90,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Auburn",
+      "away_team": "Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 91,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Florida (Jacksonville)",
+      "away_team": "Georgia",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 92,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Ole Miss",
+      "away_team": "South Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 93,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Tennessee",
+      "away_team": "Oklahoma",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 94,
+    "fields": {
+      "date": "2025-11-01",
+      "home_team": "Texas",
+      "away_team": "Vanderbilt",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 95,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Alabama",
+      "away_team": "LSU",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 96,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Kentucky",
+      "away_team": "Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 97,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Ole Miss",
+      "away_team": "The Citadel",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 98,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Mississippi State",
+      "away_team": "Georgia",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 99,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Missouri",
+      "away_team": "Texas A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 100,
+    "fields": {
+      "date": "2025-11-08",
+      "home_team": "Vanderbilt",
+      "away_team": "Auburn",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 101,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Alabama",
+      "away_team": "Oklahoma",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 102,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Georgia",
+      "away_team": "Texas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 103,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Kentucky",
+      "away_team": "Tennessee Tech",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 104,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "LSU",
+      "away_team": "Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 105,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Ole Miss",
+      "away_team": "Florida",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 106,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Missouri",
+      "away_team": "Mississippi State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 107,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Tennessee",
+      "away_team": "New Mexico State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 108,
+    "fields": {
+      "date": "2025-11-15",
+      "home_team": "Texas A&M",
+      "away_team": "South Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 109,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Alabama",
+      "away_team": "Eastern Illinois",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 110,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Auburn",
+      "away_team": "Mercer",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 111,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Florida",
+      "away_team": "Tennessee",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 112,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Georgia",
+      "away_team": "Charlotte",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 113,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "LSU",
+      "away_team": "Western Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 114,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Oklahoma",
+      "away_team": "Missouri",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 115,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "South Carolina",
+      "away_team": "Coastal Carolina",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 116,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Texas",
+      "away_team": "Arkansas",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 117,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Texas A&M",
+      "away_team": "Samford",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 118,
+    "fields": {
+      "date": "2025-11-22",
+      "home_team": "Vanderbilt",
+      "away_team": "Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 119,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Arkansas",
+      "away_team": "Missouri",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 120,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Auburn",
+      "away_team": "Alabama",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 121,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Florida",
+      "away_team": "Florida State",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 122,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Georgia Tech (Atlanta)",
+      "away_team": "Georgia",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 123,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Louisville",
+      "away_team": "Kentucky",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 124,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Mississippi State",
+      "away_team": "Ole Miss",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 125,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Oklahoma",
+      "away_team": "LSU",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 126,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "South Carolina",
+      "away_team": "Clemson",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 127,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Tennessee",
+      "away_team": "Vanderbilt",
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 128,
+    "fields": {
+      "date": "2025-11-29",
+      "home_team": "Texas",
+      "away_team": "Texas A&M",
+      "home_score": null,
+      "away_score": null
+    }
+  }
+]
