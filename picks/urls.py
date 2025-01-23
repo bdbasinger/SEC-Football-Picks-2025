@@ -1,6 +1,6 @@
 # picks/urls.py
 from django.urls import path
-from .views import picks_home, create_pick_view
+from .views import picks_home, create_pick_view, leaderboard_view
 
 urlpatterns = [
     path('', picks_home, name='picks_home'),

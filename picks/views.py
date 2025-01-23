@@ -13,6 +13,7 @@ def picks_home(request):
     user_picks = Pick.objects.filter(user=request.user)
     return render(request, 'picks/picks_home.html', {'user_picks': user_picks})
 
+
 @login_required
 def create_pick_view(request, game_id):
     """
@@ -51,3 +52,5 @@ def leaderboard_view(request):
     scoreboard.sort(key=lambda x: x[1], reverse=True)
 
     return render(request, 'picks/leaderboard.html', {'scoreboard': scoreboard})
+
+
