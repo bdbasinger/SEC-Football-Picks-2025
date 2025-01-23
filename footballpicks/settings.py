@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",  # Make sure your app is included
     "picks.apps.PicksConfig",
+    'games.apps.GamesConfig',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
