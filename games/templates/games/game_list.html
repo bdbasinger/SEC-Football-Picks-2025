@@ -5,7 +5,7 @@
     {% for game in games %}
         <li>
             <a href="{% url 'game_detail' game.pk %}">
-                {{ game.away_team }} at {{ game.home_team }} ({{ game.date }})
+                {{ game.away_team }} @ {{ game.home_team }} ({{ game.date }})
             </a>
         </li>
     {% endfor %}
