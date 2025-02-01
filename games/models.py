@@ -6,6 +6,7 @@ class Game(models.Model):
     away_team = models.CharField(max_length=100)
     home_score = models.IntegerField(null=True, blank=True)
     away_score = models.IntegerField(null=True, blank=True)
+    week = models.IntegerField(null=True, blank=True)
 
     def winner(self):
         """

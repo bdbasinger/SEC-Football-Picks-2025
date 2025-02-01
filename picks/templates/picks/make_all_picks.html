@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Make Your Picks</title>
 </head>
 <body>
-$END$
+    <h1>Make Your Picks for All Games</h1>
+    <p><a href="{% url 'picks_home' %}">Home</a></p>
+    <form method="post">
+        {% csrf_token %}
+        {{ formset.management_form }}
+
+        <table>
+            {% for form in formset %}
+                <tr>
+                    <td>
+                        <!-- Show the teams from the related game -->
+                        {{ form.instance.game.away_team }} @ {{ form.instance.game.home_team }}
+                    </td>
+                    <td>
+                        <!-- The outcome field (HOME, AWAY, etc.) -->
+                        {{ form.outcome }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <button type="submit">Submit All Picks</button>
+    </form>
 </body>
 </html>

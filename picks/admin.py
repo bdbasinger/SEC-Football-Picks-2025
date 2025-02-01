@@ -4,3 +4,4 @@ from .models import Pick
 @admin.register(Pick)
 class PickAdmin(admin.ModelAdmin):
     list_display = ('user', 'game', 'picked_winner')
+

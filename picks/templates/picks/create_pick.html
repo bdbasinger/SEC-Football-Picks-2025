@@ -5,8 +5,8 @@
 
 <form method="POST">
     {% csrf_token %}
-    <label>Pick Winner:</label>
-    <select name="picked_winner">
+    <label for="outcome">Pick a Winner:</label>
+    <select name="outcome" id="outcome">
         <option value="{{ game.home_team }}">{{ game.home_team }}</option>
         <option value="{{ game.away_team }}">{{ game.away_team }}</option>
     </select>

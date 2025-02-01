@@ -26,4 +26,5 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),  # We'll define in accounts/urls.py
     path('picks/', include('picks.urls')),  # We'll define in picks/urls.py
     path('', home_view, name='home'),
+    path('picks/', include('picks.urls')),
 ]
