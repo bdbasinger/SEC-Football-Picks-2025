@@ -15,11 +15,16 @@ class Pick(models.Model):
         on_delete=models.CASCADE,
         related_name='picks')
 
-    OUTCOME_CHOICES = [
-        ('HOME', 'Home Team'),
-        ('AWAY', 'Away Team'),
-    ]
-    outcome = models.CharField(max_length=10, choices=OUTCOME_CHOICES)
+    OUTCOME_CHOICES = {
+        ('HOME', 'HOME'),
+        ('AWAY', 'AWAY'),
+    }
+    outcome = models.CharField(
+        max_length=10,
+        choices=OUTCOME_CHOICES,
+        null=True,
+        blank=True
+    )
 
     class Meta:
         unique_together = ('user', 'game')

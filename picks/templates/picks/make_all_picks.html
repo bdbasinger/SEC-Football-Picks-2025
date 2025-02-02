@@ -14,6 +14,10 @@
             {% for form in formset %}
                 <tr>
                     <td>
+                        <!-- The game field -->
+                        {{ form.game }}
+                        {{ form.id }}
+
                         <!-- Show the teams from the related game -->
                         {{ form.instance.game.away_team }} @ {{ form.instance.game.home_team }}
                     </td>

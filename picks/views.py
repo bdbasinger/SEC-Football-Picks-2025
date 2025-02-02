@@ -15,31 +15,40 @@ from games.models import Game
 from .models import Pick
 from .forms import PickFormSet
 
+
 @login_required
 def make_all_picks(request):
-    # 1. Get all games (you can filter by date or status if needed)
     all_games = Game.objects.all()
-
-    # 2. Check existing picks for this user (CustomUser)
     existing_picks = Pick.objects.filter(user=request.user).select_related('game')
     existing_game_ids = {p.game_id for p in existing_picks}
 
-    # 3. Create new picks in bulk for any games missing a pick
     new_picks = [
-        Pick(user=request.user, game=game) #.id
+        Pick(user=request.user, game=game)
         for game in all_games
         if game.id not in existing_game_ids
     ]
-    Pick.objects.bulk_create(new_picks)  # This creates rows in the DB if they don't exist
+    Pick.objects.bulk_create(new_picks)
 
-    # Now every game has a pick for this user
-    queryset = Pick.objects.filter(user=request.user).select_related('game')
+    queryset = Pick.objects.filter(user=request.user, id__isnull=False).select_related('game')
+
 
     if request.method == 'POST':
         formset = PickFormSet(request.POST, queryset=queryset)
+
+        # **DEBUGGING LINES**:
+        print("POST DATA:", request.POST)  # Look at the raw POST data
         if formset.is_valid():
-            formset.save()  # Saves all updated picks at once
-            return redirect('picks_success')  # Or wherever you want
+            # If valid, show which data was cleaned
+            for i, form in enumerate(formset):
+                print(f"Form {i} cleaned_data:", form.cleaned_data)
+            formset.save()
+            return redirect('picks_success')
+        else:
+            # If invalid, display errors for each form
+            for i, form in enumerate(formset):
+                print(f"Form {i} errors:", form.errors)
+            # You might fall through to re-render the formset below
+            # so the user can correct errors.
     else:
         formset = PickFormSet(queryset=queryset)
 
