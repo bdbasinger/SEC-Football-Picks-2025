@@ -16,6 +16,15 @@ from .models import Pick
 from .forms import PickFormSet
 
 
+from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
+from itertools import groupby
+from operator import attrgetter
+from .models import Pick
+from games.models import Game
+from .forms import PickFormSet
+
+
 @login_required
 def make_all_picks(request):
     all_games = Game.objects.all()
@@ -52,8 +61,18 @@ def make_all_picks(request):
     else:
         formset = PickFormSet(queryset=queryset)
 
+    forms_by_week = {}
+    for form in formset:
+        w = form.instance.game.week
+        # If the dictionary doesn't have this week yet, create an empty list
+        forms_by_week.setdefault(w, []).append(form)
+
+
+
+
     return render(request, 'picks/make_all_picks.html', {
         'formset': formset,
+        'forms_by_week': forms_by_week
     })
 
 

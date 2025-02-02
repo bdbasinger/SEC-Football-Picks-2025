@@ -10,24 +10,30 @@
         {% csrf_token %}
         {{ formset.management_form }}
 
-        <table>
-            {% for form in formset %}
-                <tr>
-                    <td>
-                        <!-- The game field -->
-                        {{ form.game }}
-                        {{ form.id }}
+                {% for week, forms in forms_by_week.items %}
+            <h2>Week {{ week }}</h2>
+            <table>
+                {% for form in forms %}
+                    <tr>
+                        <td>
+                            <!-- Hidden ID field -->
+                            {{ form.id }}
+                            <!-- Hidden Game field (if it exists in fields) -->
+                            {{ form.game }}
 
-                        <!-- Show the teams from the related game -->
-                        {{ form.instance.game.away_team }} @ {{ form.instance.game.home_team }}
-                    </td>
-                    <td>
-                        <!-- The outcome field (HOME, AWAY, etc.) -->
-                        {{ form.outcome }}
-                    </td>
-                </tr>
-            {% endfor %}
-        </table>
+                            <!-- Show the teams from the related game -->
+                            {{ form.instance.game.away_team }} @ {{ form.instance.game.home_team }}
+                        </td>
+                        <td>
+                            <!-- The outcome field (dropdown) -->
+                            {{ form.outcome }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        {% endfor %}
+
+
 
         <button type="submit">Submit All Picks</button>
     </form>
